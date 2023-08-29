@@ -100,26 +100,3 @@ public class Main {
         }
     }
 }
-        //System.out.println("Обраховуємо вашу відповідь...");
-           /* if (note >= 0 && note <= nota.size()){
-            String nota2 = nota.get(note - 1);
-            System.out.println("Ваша нота: " + nota2);
-
-                System.out.println("Введіть ваш інтервал: ");
-                int ind = sheet.nextInt();
-                if (ind >= 0 && ind <= inter.size()){
-                    String ind2 = inter.get(ind);
-                    int res = note + ind;// обчислення суми індексів
-                    System.out.println("Ваш інтервал: " + ind2);
-                    int kolo = res % nota.size();
-
-                    String result = nota.get(kolo - 1);
-                    System.out.println("Ваша друга нота буде: " +  result);
-                }
-                else {
-                    System.out.println("Немає такого інтервалу");
-                }
-        }
-            else {
-                System.out.println("Немає такої ноти");
-            }*/
