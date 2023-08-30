@@ -5,8 +5,8 @@ import java.util.Scanner;
 import java.util.List;
 
 class Pair {
-    private int key;
-            private String value;
+    private final int key;
+            private final String value;
     public Pair(int key, String value) {
         this.key = key;
         this.value = value;
